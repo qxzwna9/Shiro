@@ -1,5 +1,5 @@
 <template>
-  <v-layout column justify-center align-center>
+  <v-layout column justify-center align-center class="home-bg">
     <v-flex xs12>
       <div class="text-center">
         <VuetifyLogo />
@@ -68,3 +68,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.home-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg,rgb(32, 3, 3) 0%,rgb(32, 3, 3) 100%);
+  /* หรือจะใช้ background:rgb(0, 0, 0); */
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+</style>

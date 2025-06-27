@@ -1,5 +1,5 @@
 <template>
-  <v-container class="my-10">
+  <v-container class="my-10 about-bg">
     <h1 class="text-h4 mb-4">About</h1>
     <p class="mb-4">
       Name = Panyakorn Saejao <br />
@@ -33,3 +33,14 @@ export default {
   name: 'AboutPage'
 }
 </script>
+
+<style scoped>
+.about-bg {
+  min-height: 80vh;
+  background: linear-gradient(120deg,rgb(134, 14, 14) 0%,rgb(6, 8, 141) 100%);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgb(32, 3, 3);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+</style>
