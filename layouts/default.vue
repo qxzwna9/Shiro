@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <!-- แถบด้านบน -->
-    <v-app-bar app dark style="background: linear-gradient(90deg,rgb(32, 3, 3) 0%,rgb(32, 3, 3) 100%); box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);">
+    <v-app-bar app dark style="background: linear-gradient(90deg,rgb(0, 0, 0) 0%,rgb(0, 0, 0) 100%); box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);">
       <v-toolbar-title>Computer Technology</v-toolbar-title>
       <v-spacer></v-spacer>
       <!-- ปุ่ม hamburger สำหรับเปิดเมนูด้านขวา -->
@@ -15,7 +15,7 @@
       temporary
       app
       dark  
-      style="background-color:rgb(0, 0, 0) !important; color: #fff; box-shadow: 0 4px 24px rgb(0, 0, 0); border-top-left-radius: 18px; border-bottom-left-radius: 18px;"
+      style="background-color:rgb(0, 0, 0) !important; color: #fff; box-shadow: 0 4px 24px rgb(255, 0, 0); border-top-left-radius: 18px; border-bottom-left-radius: 18px;"
     >
       <v-list>
         <v-list-item link to="/">
