@@ -80,7 +80,7 @@ export default {
 <style scoped>
 .home-bg {
   min-height: 100vh;
-  background: linear-gradient(120deg,rgb(0, 0, 0) 0%,rgb(255, 0, 0) 100%);
+  background: linear-gradient(90deg,rgb(134, 14, 14) 0%,rgb(6, 8, 141) 100%);
   padding-top: 32px;
   padding-bottom: 32px;
 }
